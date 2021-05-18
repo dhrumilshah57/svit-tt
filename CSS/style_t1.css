@@ -1,0 +1,181 @@
+body
+{
+  margin: 35px;
+  background-image: url(../image/back_img.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+
+
+}
+
+.table-label
+{
+  position: static;
+  margin-left: 200px;
+
+}
+nav{
+
+  background: linear-gradient(to left, #8942a8, #ba382f);
+  height: 40px;
+  width: 74%;
+  margin-left: 200px;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 25px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+
+
+
+#class_name
+{
+  text-decoration: underline;
+  text-align: center;
+  
+}
+
+a
+{
+  color: #000;
+  text-decoration:none;
+  padding: 7px 13px;
+  border-radius: 3px;
+
+}
+a:hover
+{
+  //background: #1b9bff;
+  padding:30px 30px;
+  //padding: 30px 30px 30px 30px;
+}
+.labs
+{
+  height: 100px;
+
+}
+.table-label
+{
+
+  display: flex;
+}
+
+
+
+#days
+{
+  background:#d8f8b7;
+  border: none;
+}
+
+.time
+{
+
+  background: #b4aee8;
+  text-transform: inherit;
+  border-color: black;
+  border-radius: 2px;
+}
+.free
+{
+  font-family: cursive;
+  border-top: none;
+  border-bottom: none;
+
+}
+td
+{
+  //border-left:none;
+  //border-top: none;
+  border-width:1px;
+  //border-bottom: none;
+}
+.tab_hover:hover
+{
+  //background: rgba(3, 148, 252,0.3);
+  background: #1b9bff;
+}
+th
+{
+  //border-left:none;
+}
+.grid-container
+{
+
+  margin: -20px;
+  height: 155px;
+  display: grid;
+  grid-template-columns:auto auto auto;
+
+
+}
+.grid-item
+{
+  color: black;
+  text-align: center;
+  width: 55px;
+  line-height: 50px;
+}
+.grid-item a:hover
+{
+  padding: 3px ;
+  background: #1b9bff;
+}
+@media(max-width:760px)
+{
+  h1
+  {
+
+    position: fixed;
+    margin-top: -130px;
+  }
+  body
+  {
+    margin: 200px;
+    background-position: right;
+    background: none;
+    background-color:#cdfffc;
+
+  }
+
+  table
+  {
+    margin-left: -175px;
+    padding-right: 15px;
+    position: static;
+    height: 1650px;
+    font-size: 25px;
+  }
+
+}
