@@ -84,7 +84,7 @@ button:hover
 .image_title
 {
   font-size: 30px;
-  font-family: cursive;
+  font-family: monospace;
   color:#a9f1df;
 }
 
@@ -236,7 +236,7 @@ a:hover{
   .image_title
   {
     font-size: 25px;
-    font-family: cursive;
+    font-family: monospace;
     color:#a9f1df);
   }
 
@@ -318,7 +318,7 @@ a:hover{
   .image_title
   {
     font-size: 22px;
-    font-family: cursive;
+    font-family: monospace;
     color:#a9f1df;
   }
 
@@ -334,7 +334,7 @@ section{
   .image_title
   {
     font-size: 22px;
-    font-family: cursive;
+    font-family: monospace;
     color:#a9f1df;
   }
   body {
