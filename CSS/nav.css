@@ -84,8 +84,8 @@ button:hover
 .image_title
 {
   font-size: 30px;
-  font-family: monospace;
-  color:rgb(205,199,51);
+  font-family: cursive;
+  color:#a9f1df;
 }
 
 .card
@@ -236,8 +236,8 @@ a:hover{
   .image_title
   {
     font-size: 25px;
-    font-family: monospace;
-    color:rgb(205,199,51);
+    font-family: cursive;
+    color:#a9f1df);
   }
 
 
@@ -275,7 +275,7 @@ a:hover{
     background: none;
     color: #0082e6;
   }
-  
+
   .row
   {
     display: inline-block;
@@ -317,18 +317,28 @@ a:hover{
   }
   .image_title
   {
-    font-size: 25px;
-    font-family: monospace;
-    color:rgb(205,199,51);
+    font-size: 22px;
+    font-family: cursive;
+    color:#a9f1df;
   }
-
-
-
-
 
 }
 section{
   background: url(bg1.jpg) no-repeat;
   background-size: cover;
   height: calc(100vh - 80px);
+}
+
+
+@media (max-width: 360px) {
+  .image_title
+  {
+    font-size: 22px;
+    font-family: cursive;
+    color:#a9f1df;
+  }
+  body {
+    margin: 0px;
+  }
+
 }
