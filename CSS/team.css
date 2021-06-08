@@ -88,11 +88,17 @@ body {
   border-top-left-radius: 5px;
 }
 
-.title {
+.title1 {
   text-align: center;
   padding: 10px;
   background-color: white;
 }
+.title2 {
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+}
+
 
 h1 {
   font-size: 20px;
@@ -127,6 +133,7 @@ margin-top:25%;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
   }
+
 
   .title {
     text-align: center;
@@ -194,13 +201,16 @@ margin-top:25%;
 }
 @media (max-width: 540px) {
   .main{
-    margin-top: 15%;
+    margin-top: 20%;
   }
 }
 
 @media (max-width: 412px) {
   .main{
-    margin-top: 20%;
+    margin-top: 30%;
+  }
+  .card h1{
+    font-size:90%;
   }
 }
 
@@ -209,10 +219,22 @@ margin-top:25%;
   .main{
     margin-top: 30%;
   }
+  .title1 h1{
+    font-size: 83%;
+  }
+
 }
 
  @media (max-width: 280px) {
   .main{
     margin-top: 30%;
   }
+  .title1 h1{
+    font-size: 80%;
+  }
+  .des p{
+      font-size: 80%;
+
+  }
+
 }
